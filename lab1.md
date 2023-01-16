@@ -11,4 +11,4 @@
    ## Step One: Installing VS Code
    
    - Click on this link [link](https://code.visualstudio.com/download) and it will take you to the VS Code download page:
-   ![Image](Screen Shot 2023-01-16 at 3.23.47 PM.png)
+   ![Image](1.png)
