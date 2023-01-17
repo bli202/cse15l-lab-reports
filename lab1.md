@@ -44,7 +44,52 @@
 
   After installation, follow these [steps](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994) to step up git bash in your windows VS Code terminal. 
   
+  Now, we have to use ssh to open up the connection to the server:
+               
+                ssh cs15lwi23**@ieng6.ucsd.edu
+                
+  - Replace ** with the letters in your own course specific account
   
+  - Since this is your first time logging in, the terminal will display a message that says:
+  
+               ⤇ ssh cs15lwi23zz@ieng6.ucsd.edu
+               The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
+               RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
+               Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+
+
+  - Type in yes and the terminal will prompt you to enter your password, and now you are connected! The page on the terminal should display this:
+
+   ![Image](6.png)
+  
+  **Now your terminal is connected to the servers in the CSE Basement! We can move on to the final step where I will show you some basic commands that you could try on remote connection.**
+
+  
+  ## Step Three: Exploring some commands
+  
+  - Now as we are connected to the remote server, we can try some commands such as ls and ls -lat, it will print the following message on the remote server:
+
+![Image](7.png)
+
+ - Now if we exit the connection by pressing control D and use the same commands on our local terminal, it will print something similar to this:
+
+![Image](8.png)
+
+**We can resonably assume that the ls commands display some form of directory files in both the remote server and local computer**
+
+- Now lets try chaining some cd commands after finding our directory files. 
+- As you can see from the ls command, it displays a file called perl5, so we can change our current directory to perl5 using cd and list the files in that directory:
+
+![Image](9.png)
+
+There are other commands listed here that you can explore with: 
+
+![Image](10.png)
+
+*This screenshot was presented to us during the first lad we had. Hope this will help you out!*
+
+- After you are done, press control d to exit the terminal
+
   
  
 
