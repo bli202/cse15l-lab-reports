@@ -8,7 +8,7 @@
         
         
       
- # Step One: Installing VS Code
+## Step One: Installing VS Code
    
    - Click on this link [link](https://code.visualstudio.com/download) and it will take you to the VS Code download page:
    ![Image](1.png)
@@ -21,7 +21,7 @@
    - Now that we have set up everything, your terminal should look like this:
    ![Image](3.png)
 
-# Step Two: Connect to the CSE 15L Remote Server
+## Step Two: Connect to the CSE 15L Remote Server
    
   Now that our VS Code is set up and running, we could use the terminal to set up a remote connection to a server. But first, we need to found our           CSE15L account in this link: 
   
@@ -65,7 +65,7 @@
   **Now your terminal is connected to the servers in the CSE Basement! We can move on to the final step where I will show you some basic commands that you could try on remote connection.**
 
   
-# Step Three: Exploring some commands
+## Step Three: Exploring some commands
   
   - Now as we are connected to the remote server, we can try some commands such as ls and ls -lat, it will print the following message on the remote server:
 
