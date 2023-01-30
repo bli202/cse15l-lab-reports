@@ -23,9 +23,7 @@
 
 ## Step Two: Connect to the CSE 15L Remote Server
    
-  Now that our VS Code is set up and running, we could use the terminal to set up a remote connection to a server. But first, we need to found our           CSE15L account in this link: 
-  
-  https://sdacs.ucsd.edu/~icc/index.php
+  Now that our VS Code is set up and running, we could use the terminal to set up a remote connection to a server. But first, we need to fnd our           CSE15L account in this [link](https://sdacs.ucsd.edu/~icc/index.php)
   
   **Password Reset** : Follow this [tutorial](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit) to reset your     password for remote connection.
   
@@ -67,7 +65,7 @@
   
 ## Step Three: Exploring some commands
   
-  - Now as we are connected to the remote server, we can try some commands such as ls and ls -lat, it will print the following message on the remote server:
+  - Now as we are connected to the remote server, we can try some commands such as `ls` and `ls -lat`, it will print the following message on the remote server:
 
 ![Image](7.png)
 
@@ -77,14 +75,17 @@
 
 **We can resonably assume that the ls commands display some form of directory files in both the remote server and local computer**
 
-- Now lets try chaining some cd commands after finding our directory files. 
-- As you can see from the ls command, it displays a file called perl5, so we can change our current directory to perl5 using cd and list the files in that directory:
+- Now lets try chaining some `cd` commands after finding our directory files. 
+- As you can see from the `ls` command, it displays a file called `perl5`, so we can change our current directory to `perl5` using `cd` and list the files in that directory:
 
 ![Image](9.png)
 
 There are other commands listed here that you can explore with: 
 
 ![Image](10.png)
+
+Some intresting results from using `ls` on a classmate's username is that you will not be able to access the documents, and it will say permission denied. Here we could also explain the difference between `ls` and `ls -lat`, since `-lat` represent displaying a longer format where hidden files and other files are sorted based of modification dates and displayed. Also, the command `pwd` also works in a remote setting, and it prints out the absolute path of the working directory on the remote computer. The `cat` command on the aboslute file path provided in the picture allows access to the contents in that absolute file path, and it will display a message.
+
 
 *This screenshot was presented to us during the first lad we had. Hope this will help you out!*
 
