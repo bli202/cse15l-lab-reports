@@ -33,10 +33,17 @@ I used the manual in linux for ```grep``` to study and understand this commmand-
    - Now lets mix things up a little, because what if we want to recursively find the count of a word in each file in a given directory? We will be using ```grep -rc```
    - For example: ```grep -rc "great" written_2/non-fiction/OUP/Fletcher``` displays the count of all files containing the word "great" in this directory path, which gives us the output: ![image](3.8.png)
 
+
 I learned of this method using chatGPT, as I asked it to generate some useful grep commands, and I used my own knowledge of grep to inlcude the recursive search.
 
 4. Using ```grep --color=always``` to highlight desired search parameters in a file
 
    - Now, lets say we are search for a commonly used word, and the grep would return a large text back to us, we could use the highlight method to make the output easier to read and our parameter easier to identify.
-   - Lets say we want to highlight all the "power" in this file ```written_2/non-fiction/OUP/Fletcher/ch2.txt``` we would write in linux ```grep --color=always "power" written_2/non-fiction/OUP/Fletcher/ch2.txt``` to get our hightlighted output: 
+   - Lets say we want to highlight all the "power" in this file ```written_2/non-fiction/OUP/Fletcher/ch2.txt``` we would write in linux ```grep --color=always "power" written_2/non-fiction/OUP/Fletcher/ch2.txt``` to get our hightlighted output: ![Image](3.9.png)
+
+   - Now notice how the first highlighted word is acutually "powerful" and not "power" that is because right now we are only tell grep to highlight the phrases containing a pattern, and if we want to highlight only the specified pattern, we are using something we already did in 1, the ```grep -w``` and chain it with our new method.
+   - If we use ```grep -w  --color=always "power" written_2/non-fiction/OUP/Fletcher/ch2.txt``` instead of our grep method before, we would get a new output: ![Image](3.10.png)
+   - Now notice how linux is only highlighting the word "power", and this is because we've specified it to only look for patterns exactly matchinf our input.
+
+I also learned this method from chatGPT and using my own knowledge on chaning commands in grep
    
