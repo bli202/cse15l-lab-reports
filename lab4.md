@@ -30,7 +30,7 @@
   Keys pressed for ```nano```: ```nano <ctrl v><enter>```: I quickly copied the desired file to look for so I don't have to type out its name.
   Keys pressed for fixing the error: ```<up><up><up><up><up><up><up><up><up><up><up><up><delete> <ctrl x><y><enter>``` I had to use ```ctrl x``` so I can save my edits
   
- ## 5.Run the JUnit tests again to show that they work ##
+## 5.Run the JUnit tests again to show that they work ##
  
   - Now since we ran our JUnit tests recently I used the arrow keys to access them.
   ![Image](4.7.png)
